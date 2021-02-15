@@ -1,0 +1,778 @@
+<!doctype html>
+<html lang="en" class="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Odigo</title>
+    <meta name="description" content="">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="header">
+    <div class="content nav__inner wrapper flex_between_center">
+        <div class="header__logo">
+            <a href="" class="header__logo-link">
+                <img src="./images/odigo-logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="header__nav">
+            <ul class="header__list flex_around_end">
+                <li class="header__item">
+                    <a href="#articles" class="header__link">Articles</a>
+                </li>
+                <li class="header__item">
+                    <a href="#town" class="header__link">Locations</a>
+                </li>
+                <li class="header__item">
+                    <a href="#video" class="header__link">Videos</a>
+                </li>
+                <li class="header__item">
+                    <a href="#sign" class="header__link">Sign in</a>
+                </li>
+            </ul>
+            <div class="header__nav_close">
+                <span class="close__line close__line_first"></span>
+                <span class="close__line close__line_second"></span>
+            </div>
+        </div>
+        <button class="button__burger" id="btnBurger" type="button">
+            <span class="burger_line"></span>
+        </button>
+        <div class="nav" id="navigation">
+            <!--<div class="nav-content">-->
+            <span class="closeNav flex_center">&times;</span>
+            <ul class="burger__nav flex_column_center">
+                <li>
+                    <a href="#articles" class="burger__link">Articles</a>
+                </li>
+                <li>
+                    <a href="#town" class="burger__link">Locations</a>
+                </li>
+                <li>
+                    <a href="#video" class="burger__link">Videos</a>
+                </li>
+                <li>
+                    <a href="#sign" class="burger__link">Sign in</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+
+
+<main>
+
+    <section class="info" id="info">
+        <div class="content content__info flex_column_start wrapper">
+            <div class="info__title text-left color-white">
+                <h1>Discover Amazing places in <br> Japan</h1>
+                <p class="p-16">Jump off balcony, onto stranger's head.
+                    Chase ball of string hide when guests come over. Being
+                    gorgeous with belly side up i could pee on this if i had
+                    the energy but under the bed, for attack the child, open the door,
+                </p>
+            </div>
+            <div class="search-form flex_between_end">
+                <div class="field flex_center">
+                    <img class="svg-circle" src="./images/circle-clean.svg" alt="circle-clean">
+                    <input class="search-field" type="text" name="user like to do" placeholder="What would you like to do?">
+                </div>
+                <div class="field flex_center">
+                    <img class="svg-circle" src="./images/circle-clean.svg" alt="circle-clean">
+                    <input class="search-field" type="text"  name="user like to go" placeholder="Where would you like to go?">
+                </div>
+                <button class="search-btn">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="benefits wrapper__benefits">
+        <div class="subtitle subtitle__benefits">
+            <h2>Benefits of Odigo</h2>
+        </div>
+        <div class="benefits__inner flex_between">
+            <div class="benefits__card flex_column_between">
+                <div class="img-benefits">
+                    <img src="./images/icon1-1.png" alt="icon">
+                </div>
+                <div class="text-benefits">
+                    <p class="p-18">Welcome to Odigo!</p>
+                    <p class="p-16">Jump off balcony, onto stranger's head.
+                        Chase ball of string hide when guests come over.
+                    </p>
+                </div>
+                <div class="link flex_center">
+                    <button class="btn-benefits" id="btnPopupFirst">LEARN MORE</button>
+                    <img class="arrow" src="./images/arrow-right.svg" alt="arrow-right">
+                    <div id="popupFirst" class="popup">
+                        <div class="popup-content">
+                            <span class="close closePopupFirst">&times;</span>
+                            <div class="popup__inner flex_column_between_center">
+                                <div class="img-popup">
+                                    <img src="./images/icon1-1.png" alt="icon">
+                                </div>
+                                <div class="text-popup">
+                                    <p class="p-18">Welcome to Odigo!</p>
+                                    <p class="p-16">Jump off balcony, onto stranger's head.
+                                        Chase ball of string hide when guests come over.
+                                    </p>
+                                    <p class="p-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Ad atque, commodi cum cupiditate deleniti dicta dolor ducimus eaque eius
+                                        eveniet exercitationem facilis fuga hic ipsa, itaque iure labore laboriosam
+                                        libero non officiis possimus quidem quis quisquam reiciendis sit, tenetur
+                                        totam ut veritatis voluptate voluptatum. Hic in minima omnis quibusdam
+                                        tempora.
+                                    </p>
+                                    <p class="p-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Ad atque, commodi cum cupiditate deleniti dicta dolor ducimus eaque eius
+                                        eveniet exercitationem facilis fuga hic ipsa, itaque iure labore laboriosam
+                                        libero non officiis possimus quidem quis quisquam reiciendis sit, tenetur
+                                        totam ut veritatis voluptate voluptatum. Hic in minima omnis quibusdam
+                                        tempora.
+                                    </p>
+                                    <p class="p-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Ad atque, commodi cum cupiditate deleniti dicta dolor ducimus eaque eius
+                                        eveniet exercitationem facilis fuga hic ipsa, itaque iure labore laboriosam
+                                        libero non officiis possimus quidem quis quisquam reiciendis sit, tenetur
+                                        totam ut veritatis voluptate voluptatum. Hic in minima omnis quibusdam
+                                        tempora.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="benefits__card flex_column_between">
+                <div class="img-benefits">
+                    <img src="./images/icon1-2.png" alt="icon">
+                </div>
+                <div class="text-benefits">
+                    <p class="p-18">Welcome to Odigo!</p>
+                    <p class="p-16">Jump off balcony, onto stranger's head.
+                        Chase ball of string hide when guests come over.
+                    </p>
+                </div>
+                <div class="link flex_center">
+                    <button class="btn-benefits" id="btnPopupSecond">LEARN MORE</button>
+                    <img class="arrow" src="./images/arrow-right.svg" alt="arrow-right">
+                    <div id="popupSecond" class="popup">
+                        <div class="popup-content">
+                            <span class="close closePopupSecond">&times;</span>
+                            <div class="img-popup">
+                                <img src="./images/icon1-2.png" alt="icon">
+                            </div>
+                            <div class="text-popup">
+                                <p class="p-18">Welcome to Odigo!</p>
+                                <p class="p-16">Jump off balcony, onto stranger's head.
+                                    Chase ball of string hide when guests come over.
+                                </p>
+                                <p class="p-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Ad atque, commodi cum cupiditate deleniti dicta dolor ducimus eaque eius
+                                    eveniet exercitationem facilis fuga hic ipsa, itaque iure labore laboriosam
+                                    libero non officiis possimus quidem quis quisquam reiciendis sit, tenetur
+                                    totam ut veritatis voluptate voluptatum. Hic in minima omnis quibusdam tempora.
+                                </p>
+                                <p class="p-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Ad atque, commodi cum cupiditate deleniti dicta dolor ducimus eaque eius
+                                    eveniet exercitationem facilis fuga hic ipsa, itaque iure labore laboriosam
+                                    libero non officiis possimus quidem quis quisquam reiciendis sit, tenetur
+                                    totam ut veritatis voluptate voluptatum. Hic in minima omnis quibusdam tempora.
+                                </p>
+                                <p class="p-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Ad atque, commodi cum cupiditate deleniti dicta dolor ducimus eaque eius
+                                    eveniet exercitationem facilis fuga hic ipsa, itaque iure labore laboriosam
+                                    libero non officiis possimus quidem quis quisquam reiciendis sit, tenetur
+                                    totam ut veritatis voluptate voluptatum. Hic in minima omnis quibusdam tempora.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="benefits__card flex_column_between">
+                <div class="img-benefits">
+                    <img src="./images/icon1-3.png" alt="icon">
+                </div>
+                <div class="text-benefits">
+                    <p class="p-18">Welcome to Odigo!</p>
+                    <p class="p-16">Jump off balcony, onto stranger's head.
+                        Chase ball of string hide when guests come over.
+                    </p>
+                </div>
+                <div class="link flex_center">
+                    <button class="btn-benefits" id="btnPopupThird">LEARN MORE</button>
+                    <img class="arrow" src="./images/arrow-right.svg" alt="arrow-right">
+                    <div id="popupThird" class="popup">
+                        <div class="popup-content">
+                            <span class="close closePopupThird">&times;</span>
+                            <div class="img-popup">
+                                <img src="./images/icon1-3.png" alt="icon">
+                            </div>
+                            <div class="text-popup">
+                                <p class="p-18">Welcome to Odigo!</p>
+                                <p class="p-16">Jump off balcony, onto stranger's head.
+                                    Chase ball of string hide when guests come over.
+                                </p>
+                                <p class="p-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Ad atque, commodi cum cupiditate deleniti dicta dolor ducimus eaque eius
+                                    eveniet exercitationem facilis fuga hic ipsa, itaque iure labore laboriosam
+                                    libero non officiis possimus quidem quis quisquam reiciendis sit, tenetur
+                                    totam ut veritatis voluptate voluptatum. Hic in minima omnis quibusdam tempora.
+                                </p>
+                                <p class="p-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Ad atque, commodi cum cupiditate deleniti dicta dolor ducimus eaque eius
+                                    eveniet exercitationem facilis fuga hic ipsa, itaque iure labore laboriosam
+                                    libero non officiis possimus quidem quis quisquam reiciendis sit, tenetur
+                                    totam ut veritatis voluptate voluptatum. Hic in minima omnis quibusdam tempora.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="inspiration">
+        <div class="content wrapper__full">
+            <div class="subtitle__inner flex_between_baseline">
+                <div class="subtitle subtitle__inspiration">
+                    <h2>Get inspired for your next trip</h2>
+                </div>
+                <div class="link flex_center">
+                    <button class="btn-benefits" id="btnPopupSlide">view all</button>
+                    <img class="arrow" src="./images/arrow-right.svg" alt="arrow-right">
+                    <div id="popupSlide" class="popup__slide">
+                        <div class="popup-content__slide">
+                            <span class="close__popup closePopupSlide flex_center">&times;</span>
+                            <!-- Swiper -->
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./images/japan1-1.jpg" alt="japan">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./images/japan1-2.jpg" alt="japan">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./images/japan1-3.jpg" alt="japan">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./images/japan1-4.jpg" alt="japan">
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row__inspiration flex_between">
+                <div class="inspiration__img inspiration__img-lg">
+                    <img src="./images/town1-1.jpg" alt="Mount Fuji">
+                    <div class="inspiration__overlay"></div>
+                    <div class="text-inspiration color-white">
+                        <h3>Mount Fuji</h3>
+                    </div>
+                </div>
+                <div class="inspiration__img inspiration__img-lg">
+                    <img src="./images/town1-2.jpg" alt="Kyoto">
+                    <div class="inspiration__overlay"></div>
+                    <div class="text-inspiration color-white">
+                        <h3>Kyoto</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row__inspiration flex_between">
+                <div class="inspiration__img inspiration__img-sm">
+                    <img src="./images/town1-3.jpg" alt="Tokyo">
+                    <div class="inspiration__overlay"></div>
+                    <div class="text-inspiration color-white">
+                        <h3>Tokyo</h3>
+                    </div>
+                </div>
+                <div class="inspiration__img inspiration__img-sm">
+                    <img src="./images/town1-4.jpg" alt="Niigata">
+                    <div class="inspiration__overlay"></div>
+                    <div class="text-inspiration color-white">
+                        <h3>Niigata</h3>
+                    </div>
+                </div>
+                <div class="inspiration__img inspiration__img-sm">
+                    <img src="./images/town1-5.jpg" alt="Sapporo">
+                    <div class="inspiration__overlay"></div>
+                    <div class="text-inspiration color-white">
+                        <h3>Sapporo</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="description" id="articles">
+        <div class="content wrapper__full">
+            <div class="row__description flex_between_center">
+                <div class="img__desc">
+                    <img src="./images/image-desc1-1.jpg" alt="image">
+                </div>
+                <div class="text__desc">
+                    <h5>Prefecture in Focus: Tottori</h5>
+                    <p class="p-16">Jump off balcony, onto stranger's head. Chase ball
+                        of string hide when guests come over. Being gorgeous with belly
+                        side up i could pee on this if i had the energy but under the
+                        bed, for attack the child, open the door,
+                    </p>
+                    <div class="link flex_start_center">
+                        <a href="https://www.alamy.com/stock-photo-tottori-japan-skyline-87624848.html" target="_blank"
+                           class="link-benefits">VIEW PREFECTURE
+                            <img class="arrow" src="./images/arrow-right.svg" alt="arrow-right">
+                            <!--<svg class="svg-arrow">-->
+                                <!--<use xlink:href="./images/svg-sprite/svg.svg#right"></use>-->
+                            <!--</svg>-->
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row__description flex_between_center">
+                <div class="text__desc text__desc__second">
+                    <h5 class="h5">Featured Neighborhood: <br> Kyoto’s Arashiyama</h5>
+                    <p class="p-16">Jump off balcony, onto stranger's head. Chase ball
+                        of string hide when guests come over. Being gorgeous with belly
+                        side up i could pee on this if i had the energy but under the
+                        bed, for attack the child, open the door,
+                    </p>
+                    <div class="link flex_start_center">
+                        <a href="https://japantravel.navitime.com/en/area/jp/guide/NTJtrv0777-en/" target="_blank"
+                           class="link-benefits">VIEW NEIGHBORHOOD
+                            <img class="arrow" src="./images/arrow-right.svg" alt="arrow-right">
+                        </a>
+                    </div>
+                </div>
+                <div class="img__desc img__desc__second">
+                    <img src="./images/image-desc1-2.jpg" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="town" id="town">
+        <div class="content wrapper__full">
+            <div class="subtitle subtitle__town">
+                <h2>Today top places to visit</h2>
+            </div>
+            <div class="town__inner flex_between">
+                <div class="town__item">
+                    <div class="town__img">
+                        <img class="img_scale" src="./images/place1-1.jpg" alt="town">
+                        <div class="town__desc flex_between">
+                            <div class="town__name">
+                                <p class="p-18">NAGOYA</p>
+                            </div>
+                            <div class="number__inner flex_around_baseline">
+                                <div class="number__item">
+                                    <span>221</span>
+                                </div>
+                                <div class="img__item">
+                                    <img class="icon-heart" src="./images/heart.svg" alt="heart">
+                                </div>
+                                <div class="number__item">
+                                    <span>221</span>
+                                </div>
+                                <div class="img__item">
+                                    <img class="icon-comment" src="./images/comment.svg" alt="comment">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item__desc">
+                        <p class="p-16">Jump off balcony, onto stranger's head.
+                            Chase ball of string hide when guests come over. Being
+                            gorgeous with belly side up i could pee on this.
+                        </p>
+                    </div>
+                    <button class="town__link" id="btnFirst">SEE MORE</button>
+                    <div id="modalFirst" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close closeFirst">&times;</span>
+                            <h5 class="h5_modal text-center">NAGOYA</h5>
+                            <div class="modal__inner flex_around">
+                                <div class="modal__item">
+                                    <img src="./images/Nagoya1-1.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/Nagoya1-2.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/Nagoya1-3.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/Nagoya1-4.jpg" alt="town">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="town__item">
+                    <div class="town__img">
+                        <img class="img_scale" src="./images/place1-2.jpg" alt="town">
+                        <div class="town__desc flex_between">
+                            <div class="town__name">
+                                <p class="p-18">NIIGATA</p>
+                            </div>
+                            <div class="number__inner flex_around_baseline">
+                                <div class="number__item">
+                                    <span>221</span>
+                                </div>
+                                <div class="img__item">
+                                    <img class="icon-heart" src="./images/heart.svg" alt="heart">
+                                </div>
+                                <div class="number__item">
+                                    <span>221</span>
+                                </div>
+                                <div class="img__item">
+                                    <img class="icon-comment" src="./images/comment.svg" alt="comment">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item__desc">
+                        <p class="p-16">Jump off balcony, onto stranger's head.
+                            Chase ball of string hide when guests come over. Being
+                            gorgeous with belly side up i could pee on this.
+                        </p>
+                    </div>
+                    <button class="town__link" id="btnSecond">SEE MORE</button>
+                    <div id="modalSecond" class="modal">
+                        <div class="modal-content">
+                            <span class="close closeSecond">&times;</span>
+                            <h5 class="h5_modal text-center">NIIGATA</h5>
+                            <div class="modal__inner flex_around">
+                                <div class="modal__item">
+                                    <img src="./images/Niigata1-1.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/Niigata1-2.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/Niigata1-3.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/Niigata1-4.jpg" alt="town">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="town__item">
+                    <div class="town__img">
+                        <img class="img_scale" src="./images/place1-3.jpg" alt="town">
+                        <div class="town__desc flex_between">
+                            <div class="town__name">
+                                <p class="p-18">OSAKA</p>
+                            </div>
+                            <div class="number__inner flex_around_baseline">
+                                <div class="number__item">
+                                    <span>221</span>
+                                </div>
+                                <div class="img__item">
+                                    <img class="icon-heart" src="./images/heart.svg" alt="heart">
+                                </div>
+                                <div class="number__item">
+                                    <span>221</span>
+                                </div>
+                                <div class="img__item">
+                                    <img class="icon-comment" src="./images/comment.svg" alt="comment">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item__desc">
+                        <p class="p-16">Jump off balcony, onto stranger's head.
+                            Chase ball of string hide when guests come over. Being
+                            gorgeous with belly side up i could pee on this.
+                        </p>
+                    </div>
+                    <button class="town__link" id="btnThird">SEE MORE</button>
+                    <div id="modalThird" class="modal">
+                        <div class="modal-content">
+                            <span class="close closeThird">&times;</span>
+                            <h5 class="h5_modal text-center">OSAKA</h5>
+                            <div class="modal__inner flex_around">
+                                <div class="modal__item">
+                                    <img src="./images/Osaka1-1.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/Osaka1-2.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/Osaka1-3.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/Osaka1-4.jpg" alt="town">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="town__item">
+                    <div class="town__img">
+                        <img class="img_scale" src="./images/place1-4.jpg" alt="town">
+                        <div class="town__desc flex_between">
+                            <div class="town__name">
+                                <p class="p-18">SAITAMA</p>
+                            </div>
+                            <div class="number__inner flex_around_baseline">
+                                <div class="number__item">
+                                    <span>221</span>
+                                </div>
+                                <div class="img__item">
+                                    <img class="icon-heart" src="./images/heart.svg" alt="heart">
+                                </div>
+                                <div class="number__item">
+                                    <span>221</span>
+                                </div>
+                                <div class="img__item">
+                                    <img class="icon-comment" src="./images/comment.svg" alt="comment">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item__desc">
+                        <p class="p-16">Jump off balcony, onto stranger's head.
+                            Chase ball of string hide when guests come over. Being
+                            gorgeous with belly side up i could pee on this.
+                        </p>
+                    </div>
+                    <button class="town__link" id="btnFourth">SEE MORE</button>
+                    <div id="modalFourth" class="modal">
+                        <div class="modal-content">
+                            <span class="close closeFourth">&times;</span>
+                            <h5 class="h5_modal text-center">SAITAMA</h5>
+                            <div class="modal__inner flex_around">
+                                <div class="modal__item">
+                                    <img src="./images/saitama1-1.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/saitama1-2.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/saitama1-3.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/saitama1-4.jpg" alt="town">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="town__item">
+                    <div class="town__img">
+                        <img class="img_scale" src="./images/place1-5.jpg" alt="town">
+                        <div class="town__desc flex_between">
+                            <div class="town__name">
+                                <p class="p-18">UENO</p>
+                            </div>
+                            <div class="number__inner flex_around_baseline">
+                                <div class="number__item">
+                                    <span>221</span>
+                                </div>
+                                <div class="img__item">
+                                    <img class="icon-heart" src="./images/heart.svg" alt="heart">
+                                </div>
+                                <div class="number__item">
+                                    <span>221</span>
+                                </div>
+                                <div class="img__item">
+                                    <img class="icon-comment" src="./images/comment.svg" alt="comment">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item__desc">
+                        <p class="p-16">Jump off balcony, onto stranger's head.
+                            Chase ball of string hide when guests come over. Being
+                            gorgeous with belly side up i could pee on this.
+                        </p>
+                    </div>
+                    <button class="town__link" id="btnFifth">SEE MORE</button>
+                    <div id="modalFifth" class="modal">
+                        <div class="modal-content">
+                            <span class="close closeFifth">&times;</span>
+                            <h5 class="h5_modal text-center">UENO</h5>
+                            <div class="modal__inner flex_around">
+                                <div class="modal__item">
+                                    <img src="./images/ueno1-1.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/ueno1-2.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/ueno1-3.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/ueno1-4.jpg" alt="town">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="town__item">
+                    <div class="town__img">
+                        <img class="img_scale" src="./images/place1-6.jpg" alt="town">
+                        <div class="town__desc flex_between">
+                            <div class="town__name">
+                                <p class="p-18">SHIBUYA</p>
+                            </div>
+                            <div class="number__inner flex_around_baseline">
+                                <div class="number__item">
+                                    <span>221</span>
+                                </div>
+                                <div class="img__item">
+                                    <img class="icon-heart" src="./images/heart.svg" alt="heart">
+                                </div>
+                                <div class="number__item">
+                                    <span>221</span>
+                                </div>
+                                <div class="img__item">
+                                    <img class="icon-comment" src="./images/comment.svg" alt="comment">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item__desc">
+                        <p class="p-16">Jump off balcony, onto stranger's head.
+                            Chase ball of string hide when guests come over. Being
+                            gorgeous with belly side up i could pee on this.
+                        </p>
+                    </div>
+                    <button class="town__link" id="btnSixth">SEE MORE</button>
+                    <div id="modalSixth" class="modal">
+                        <div class="modal-content">
+                            <span class="close closeSixth">&times;</span>
+                            <h5 class="h5_modal text-center">SHIBUYA</h5>
+                            <div class="modal__inner flex_around">
+                                <div class="modal__item">
+                                    <img src="./images/shibuya1-1.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/shibuya1-2.png" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/shibuya1-3.jpg" alt="town">
+                                </div>
+                                <div class="modal__item">
+                                    <img src="./images/shibuya1-4.jpg" alt="town">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="video" id="video">
+        <button id="btnVideo" class="video__button"></button>
+        <div id="modalVideo" class="modal">
+            <div class="modal-content modal-content__video">
+                <span class="close closeVideo">&times;</span>
+                <iframe class="media" src="https://www.youtube.com/embed/gqYzEv_AqYM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+
+<section class="footer">
+    <div class="content content__footer wrapper flex_between_start">
+        <div class="footer__logo">
+            <img src="./images/footer-logo.png" alt="logo">
+        </div>
+        <div class="footer__inner flex_between_start">
+            <div class="footer__item flex_column_start">
+                <div class="title_footer">
+                    <h6 class="text-left">Company</h6>
+                </div>
+                <ul>
+                    <li>
+                        <a class="footer__link" href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Team</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Careers</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Privacy Policy</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="footer__item flex_column_start">
+                <div class="title_footer">
+                    <h6 class="text-left">Location</h6>
+                </div>
+                <ul>
+                    <li>
+                        <a class="footer__link" href="#">Tokyo</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Kyoto</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Osaka</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Hokkaido</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__item flex_column_start">
+                <div class="title_footer">
+                    <h6 class="text-left">Social Media</h6>
+                </div>
+                <ul>
+                    <li>
+                        <a class="footer__link" href="#">Facebook</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Instagram</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Youtube</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/all.min.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
